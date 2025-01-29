@@ -1,0 +1,162 @@
+body{margin: 0px;
+    background-color: #8ac9f5;
+}
+nav {
+    background-color: #d3e6f4;
+    font-family: "Times New Roman";
+    display: flex;
+    justify-content: space-between;
+    padding:10px 10px;
+}
+
+nav p, nav a {
+    
+}
+
+nav a {
+
+}
+
+nav a:hover {}
+
+/* Footer Styles */
+footer {
+    background-color: #d3e6f4;
+    font-family: "Times New Roman";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+}
+
+footer a {text-decoration: none;
+    color:black;}
+
+footer a:hover {text-decoration: underline;
+    color:black;}
+
+/* Splash Section */
+.splash {text-align: center;
+    background-color: #8ac9f5
+}
+
+.splash h1 {
+    font-size: 4rem;
+    font-family: 'Liter',serif;
+}
+
+.splash img {
+    border-radius: 10%;
+
+}
+
+.splash p {
+    font-family: 'Liter',serif;
+    background-color: #a3d4f8;
+}
+
+/* Horizontal Rules */
+hr {
+    margin: 5px 5px;
+    border-top: solid #696969;
+    border-radius: 30%;
+}
+
+/* Sections */
+section {}
+
+/* Section Headings */
+section h2 {
+    
+    font-family: 'New Amsterdam', serif;
+    background-color: #8ac9f5;
+    color: rgb(101, 101, 101);
+    display:flex;
+    justify-content: center;
+}
+
+/* Paragraph Styles */
+section p {
+    display:flex;
+    justify-content: center;
+    font-family: 'Liter', serif;
+    background-color: #8ac9f5;}
+
+/* link styles */
+section a {text-decoration: none;
+color:blue;
+}
+section a:hover {
+    text-decoration: underline;
+    color:blue;
+}
+
+/* List Styles */
+ul {
+    list-style-type: square;
+}
+
+dl {
+    display:grid;
+}
+dl dt{}
+dl dd{}
+
+/* Project Section */
+.three-col {
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 200px auto;
+    align-items: start;
+    gap: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+}
+
+.card img {
+    width: 200px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card h3 {
+    margin: 0;
+    align-self: start;
+}
+/* Contact Page Styles */
+.one-col {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    gap: 15px;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    box-sizing: border-box;
+}
+
+.one-col textarea {
+    resize: none;
+    maxlength: 500; 
+}
+
+
+
+
+form {}
+
+form input, form textarea {}
+
+form input:focus, form textarea:focus {}
+
+form button {}
+
+form button:hover {}
